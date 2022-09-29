@@ -37,7 +37,7 @@ async function getAllMovies() {
         if(data.Response == "False") {
             mainSection.innerHTML = `   
                 <div id="placeholder-stuff">
-                    <img src="./IMG/icon.png">
+                    <img src="/IMG/icon.png">
                     <h2>Oops, couldn't find anything. Try again.</h2>
                 </div>`
         } else {
